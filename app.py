@@ -11,7 +11,7 @@ sys.modules['scipy.sparse._csr'] = scipy.sparse
 
 app = Flask(__name__)
 
-#========================loading the save files==================================================
+
 model = pickle.load(open('logistic_regression.pkl','rb'))
 feature_extraction = pickle.load(open('feature_extraction.pkl','rb'))
 
