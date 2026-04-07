@@ -5,7 +5,6 @@ import sys
 import scipy
 import scipy.sparse
 
-# 🔧 Compatibility fix for old pickles
 sys.modules['scipy.sparse.csr'] = scipy.sparse
 sys.modules['scipy.sparse._csr'] = scipy.sparse
 
